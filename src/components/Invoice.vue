@@ -118,9 +118,9 @@
               <td class="border-white"></td>
               <td class="border-white"></td>
               <td>
-                <div class="text-neutral-600 flex justify-between">
+                <div class="text-neutral-600 flex justify-between" @click="vatPercentage++">
                   <p class="font-bold">Total VAT:</p>
-                  <p class="font-bold" @dblclick=" enableEdit($event)">{{ vatPercentage }}%</p>
+                  <p class="font-bold">{{ vatPercentage }}%</p>
                 </div>
               </td>
             </tr>
